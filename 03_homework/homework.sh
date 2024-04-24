@@ -15,13 +15,14 @@ ls
 # 4. How would you verify the presence of all 5 files?
 
 # 5. How would you append to one of the existing files " and machine learning!"?
-
+echo " and machine learning" >> dir1/file1.txt
 # 6. How would you verify that the text was indeed appended to the existing file?
-
+cat dir1/file1.txt
 # 7. How would you delete all files except for the one with the appended text?
 
 # 8. How would you navigate back to the parent directory containing all the directories?
-
+cd ..
 # 9. How would you remove each directory along with its contents?
-
+rm -r -d */
 # 10. How would you verify that all directories and files have been deleted?
+ls
